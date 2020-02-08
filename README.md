@@ -4,5 +4,5 @@ Neste projeto, realizei testes automatizados e manuais na página http://neon.sa
 
 Abaixo segue alguns gifs e prints dos testes automatizados:
 
-![](Cadastro.gif
+![](Cadastro.gif)
 
