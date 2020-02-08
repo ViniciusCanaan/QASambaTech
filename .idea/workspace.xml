@@ -35,7 +35,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="JUnit.TesteGratis.testTesteGratis">
+  <component name="RunManager" selected="JUnit.Cadastro.testFazerCadastro">
     <configuration name="Cadastro.testFazerCadastro" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TesteSambaTech" />
       <extension name="coverage">
@@ -68,7 +68,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinhaConta.testMinhaConta" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SignTest.testFazerLoginNoSambaPlay" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TesteSambaTech" />
       <extension name="coverage">
         <pattern>
@@ -77,8 +77,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Testes" />
-      <option name="MAIN_CLASS_NAME" value="Testes.MinhaConta" />
-      <option name="METHOD_NAME" value="testMinhaConta" />
+      <option name="MAIN_CLASS_NAME" value="Testes.SignTest" />
+      <option name="METHOD_NAME" value="testFazerLoginNoSambaPlay" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -117,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TesteGratis.testTesteGratis" />
-        <item itemvalue="JUnit.TesteGratis" />
-        <item itemvalue="JUnit.Conteudo.testMinhaConta" />
-        <item itemvalue="JUnit.MinhaConta.testMinhaConta" />
         <item itemvalue="JUnit.Cadastro.testFazerCadastro" />
+        <item itemvalue="JUnit.Conteudo.testMinhaConta" />
+        <item itemvalue="JUnit.TesteGratis.testTesteGratis" />
+        <item itemvalue="JUnit.SignTest.testFazerLoginNoSambaPlay" />
+        <item itemvalue="JUnit.TesteGratis" />
       </list>
     </recent_temporary>
   </component>
@@ -143,22 +143,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="484" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1580952874020" />
-    <state width="1323" height="163" key="GridCell.Tab.0.bottom" timestamp="1581128978772">
+    <state width="1323" height="163" key="GridCell.Tab.0.bottom" timestamp="1581199307540">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="163" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581128978772" />
-    <state width="1323" height="163" key="GridCell.Tab.0.center" timestamp="1581128978772">
+    <state width="1323" height="163" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581199307540" />
+    <state width="1323" height="163" key="GridCell.Tab.0.center" timestamp="1581199307540">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="163" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1581128978772" />
-    <state width="1323" height="163" key="GridCell.Tab.0.left" timestamp="1581128978772">
+    <state width="1323" height="163" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1581199307540" />
+    <state width="1323" height="163" key="GridCell.Tab.0.left" timestamp="1581199307540">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="163" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1581128978772" />
-    <state width="1323" height="163" key="GridCell.Tab.0.right" timestamp="1581128978772">
+    <state width="1323" height="163" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1581199307540" />
+    <state width="1323" height="163" key="GridCell.Tab.0.right" timestamp="1581199307540">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="163" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1581128978772" />
+    <state width="1323" height="163" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1581199307540" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1581045521852">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -179,23 +179,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1581035868758" />
-    <state x="384" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1581119543965">
+    <state x="384" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1581195955503">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="384" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1581119543965" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/Testes/SignTest.java</url>
-          <line>14</line>
-          <properties class="Testes.SignTest" method="testFazerLoginNoSambaPlay">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="384" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1581195955503" />
   </component>
 </project>

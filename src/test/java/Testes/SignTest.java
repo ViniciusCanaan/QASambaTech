@@ -20,10 +20,10 @@ public class SignTest {
 
         navegador.get("https://neon.sambaplay.tv/"); // solicitando que meu webdriver acesse a página da sambaplay.tv
         navegador.findElement(By.id("header-sign-in-btn")).click(); //procurando pelo elemento com o id "header-sign-in-btn" e executando a função de click;
-        navegador.findElement(By.id("loginEmail")).sendKeys("vcfreitas1997@gmail.com");
-        navegador.findElement(By.id("loginPassword")).sendKeys("12345678");
-        navegador.findElement(By.id("formLogin"));
-        navegador.findElement(By.id("btn-login")).click();
+        navegador.findElement(By.id("loginEmail")).sendKeys("vcfreitas1997@gmail.com"); //preenchendo o campo de login com meu e-mail
+        navegador.findElement(By.id("loginPassword")).sendKeys("12345678");  //preenchendo a senha
+        navegador.findElement(By.id("formLogin"));  //procurando pelo elemento de formulário de login
+        navegador.findElement(By.id("btn-login")).click(); //procurando pelo botão de login e executando a função de click
         ChromeOptions options = new ChromeOptions();
 
 

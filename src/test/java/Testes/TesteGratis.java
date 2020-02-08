@@ -21,15 +21,15 @@ public class TesteGratis {
 
             navegador.get("https://neon.sambaplay.tv/"); // solicitando que meu webdriver acesse a página da sambaplay.tv
             navegador.findElement(By.id("header-sign-in-btn")).click(); //procurando pelo elemento com o id "header-sign-in-btn" e executando a função de click;
-            navegador.findElement(By.id("loginEmail")).sendKeys("vcfreitas1997@gmail.com");
-            navegador.findElement(By.id("loginPassword")).sendKeys("12345678");
-            navegador.findElement(By.id("formLogin"));
-            navegador.findElement(By.id("btn-login")).click();
-            navegador.findElement(By.linkText("Conteúdo")).click();
-            navegador.findElement(By.id("cta_subscription_trial")).click();
-            navegador.findElement(By.id("menuBoleto")).click();
-            navegador.findElement(By.id("cpf")).sendKeys("21167297504");
-            navegador.findElement(By.id("btn-finish-payment-boleto")).click();
+            navegador.findElement(By.id("loginEmail")).sendKeys("vcfreitas1997@gmail.com");//preenchendo meu e-mail
+            navegador.findElement(By.id("loginPassword")).sendKeys("12345678"); //preenchendo minha senha
+            navegador.findElement(By.id("formLogin")); // buscando pelo formulário de login
+            navegador.findElement(By.id("btn-login")).click(); //solicitando que faça o clique no botão de login
+            navegador.findElement(By.linkText("Conteúdo")).click(); //indo para a tela de conteúdo
+            navegador.findElement(By.id("cta_subscription_trial")).click(); // inscrevendo para o teste grátis
+            navegador.findElement(By.id("menuBoleto")).click(); //entrando na tela de pagamento por boleto
+            navegador.findElement(By.id("cpf")).sendKeys("21167297504"); //preenchendo meu cpf
+            navegador.findElement(By.id("btn-finish-payment-boleto")).click(); //finalizando a geração de boleto.
             ChromeOptions options = new ChromeOptions();
 
 
